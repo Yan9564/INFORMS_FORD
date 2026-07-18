@@ -90,7 +90,8 @@ No external SOTA repositories or deep-learning models are integrated yet. Metric
 Generated from [`registry/papers.csv`](registry/papers.csv).
 
 | Title | Year | Venue | Method family | Datasets | Official code | Repository URL | License | Integration status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|---|---:|---|---|---|---|---|---|---|
+| [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series](https://ojs.aaai.org/index.php/AAAI/article/view/16523) | 2021 | AAAI | Graph-based forecasting / learned dependency graph | SWaT; WADI | Yes | [d-ailin/GDN](https://github.com/d-ailin/GDN) | MIT | Implemented |
 <!-- BENCHMARK-PAPERS:END -->
 
 <!-- BENCHMARK-RESULTS:START -->
