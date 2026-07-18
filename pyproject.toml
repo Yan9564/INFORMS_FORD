@@ -13,7 +13,6 @@ dependencies = ["pandas", "numpy", "scikit-learn", "PyYAML", "joblib"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
-gdn = ["torch"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
