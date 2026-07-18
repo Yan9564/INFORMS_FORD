@@ -52,11 +52,6 @@ MyDrive/industrial-anomaly-benchmark-results/logs/
 
 Open `colab/run_benchmark.ipynb`, set the repository URL, branch, dataset root, and result root, then run the thin notebook cells.
 
-
-## Google Colab quick start
-
-Open `colab/01_ford_smoke_test.ipynb` from GitHub in Google Colab to run a lightweight Ford smoke test. Store the Ford data under `/content/drive/MyDrive/anomaly_benchmark_data/ford/Train/accept/` and `/content/drive/MyDrive/anomaly_benchmark_data/ford/Train/reject/`, then run all notebook cells. The notebook mounts Google Drive, installs this package, loads a small configurable subset, runs the existing Isolation Forest baseline, computes precision/recall/F1 with the common metrics code, and copies JSON/CSV outputs to `/content/drive/MyDrive/anomaly_benchmark_results/ford_smoke_test/`. For private repositories, authorize GitHub access in Colab or use an ephemeral token only in the current runtime; never commit credentials. A GPU runtime is optional because Isolation Forest is CPU-based.
-
 ## Commands
 
 Validate Ford data:
