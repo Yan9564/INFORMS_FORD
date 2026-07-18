@@ -1,0 +1,9 @@
+models:
+  isolation_forest: {status: implemented, family: classical_ml}
+  autoencoder: {status: placeholder, family: deep_learning}
+  gdn: {status: placeholder, family: graph_based}
+  mtad_gat: {status: placeholder, family: graph_attention}
+  tranad: {status: placeholder, family: transformer}
+  diffusion_based_methods: {status: placeholder, family: diffusion}
+  physics_informed_methods: {status: placeholder, family: physics_informed}
+  knowledge_graph_methods: {status: placeholder, family: knowledge_enhanced}
