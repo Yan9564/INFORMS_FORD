@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-anomaly-benchmark"
+version = "0.1.0"
+description = "Reproducible anomaly-detection benchmark for industrial datasets."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary research code; see LICENSE"}
+dependencies = ["pandas", "numpy", "scikit-learn", "PyYAML", "joblib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

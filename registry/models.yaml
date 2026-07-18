@@ -1,0 +1,87 @@
+models:
+  isolation_forest:
+    status: implemented
+    family: classical_ml
+    recommendation: baseline
+  gdn:
+    status: candidate
+    family: graph_forecasting
+    registry_paper_id: gdn_2021
+    recommendation: main_benchmark
+  mtad_gat:
+    status: candidate
+    family: graph_attention_forecast_reconstruct
+    registry_paper_id: mtad_gat_2020
+    recommendation: main_benchmark
+  tranad:
+    status: candidate
+    family: transformer_forecast_reconstruct
+    registry_paper_id: tranad_2022
+    recommendation: main_benchmark
+  anomaly_transformer:
+    status: candidate
+    family: transformer_reconstruction
+    registry_paper_id: anomaly_transformer_2022
+    recommendation: main_benchmark
+  dcdetector:
+    status: candidate
+    family: contrastive_transformer
+    registry_paper_id: dcdetector_2023
+    recommendation: main_benchmark
+  memto:
+    status: candidate
+    family: memory_transformer_reconstruction
+    registry_paper_id: memto_2023
+    recommendation: main_benchmark
+  catch:
+    status: candidate
+    family: frequency_reconstruction
+    registry_paper_id: catch_2025
+    recommendation: main_benchmark
+  diffad:
+    status: candidate
+    family: diffusion_imputation
+    registry_paper_id: diffad_2023
+    recommendation: appendix
+  dtaad:
+    status: candidate
+    family: forecast_reconstruct_attention_tcn
+    registry_paper_id: dtaad_2024
+    recommendation: appendix
+  mtgflow:
+    status: candidate
+    family: graph_normalizing_flow
+    registry_paper_id: mtgflow_2023
+    recommendation: appendix
+  usad:
+    status: candidate
+    family: adversarial_autoencoder
+    registry_paper_id: usad_2020
+    recommendation: main_benchmark
+  deep_isolation_forest:
+    status: candidate
+    family: deep_isolation_forest
+    registry_paper_id: deep_iforest_2024
+    recommendation: main_benchmark
+  autoencoder:
+    status: placeholder
+    family: deep_learning
+    recommendation: baseline
+  diffusion_based_methods:
+    status: registry_started
+    family: diffusion
+    representatives: [diffad, d3r, madsgm, ngls_diff]
+  physics_informed_methods:
+    status: needs_more_search
+    family: physics_informed
+    notes: No sufficiently verified official industrial MTSAD implementation selected in this pass.
+  knowledge_graph_methods:
+    status: needs_more_search
+    family: knowledge_enhanced
+    notes: No sufficiently verified official KG-integrated MTSAD implementation selected in this pass.
+  external_registry_notes:
+    literature_rows: 46
+    main_benchmark_target: 15-25 representative models
+    current_main_benchmark_count: 9
+    last_reviewed_utc: '2026-07-18'
+    verification_policy: Blank or not verified fields must be resolved before implementation.

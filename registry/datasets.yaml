@@ -1,0 +1,5 @@
+datasets:
+  ford: {status: initial_adapter, notes: "Paths configured externally; real data excluded from Git."}
+  swat: {status: planned, notes: "Multivariate time-series anomaly detection."}
+  paysim: {status: planned, notes: "Transaction-level tabular fraud/anomaly detection."}
+  arrhythmia: {status: planned, notes: "Tabular anomaly detection."}
