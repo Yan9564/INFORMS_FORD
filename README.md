@@ -1,6 +1,6 @@
 # Industrial Anomaly Detection Benchmark
 
-Initial reproducible benchmark scaffold for an IISE Transactions paper. The current milestone implements the Ford manufacturing dataset pipeline and an Isolation Forest baseline with common preprocessing, thresholding, evaluation, immutable raw results, and generated summary tables.
+Initial reproducible benchmark scaffold for an acadeimc paper. The current milestone implements the Ford manufacturing dataset pipeline and an Isolation Forest baseline with common preprocessing, thresholding, evaluation, immutable raw results, and generated summary tables.
 
 ## Scope
 
