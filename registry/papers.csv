@@ -1,1 +1,2 @@
 paper_id,title,year,venue,method_family,datasets,multivariate,official_code,repository_url,license,upstream_commit,integration_status,selected_for_experiment,exclusion_reason,notes
+gdn,Graph Neural Network-Based Anomaly Detection in Multivariate Time Series,2021,AAAI,graph-based forecasting / learned dependency graph,SWaT; WADI,yes,yes,https://github.com/d-ailin/GDN,MIT,,implemented,yes,,Official GDN implementation adapted to the common SWaT evaluation pipeline.
