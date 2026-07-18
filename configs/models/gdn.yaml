@@ -1,0 +1,18 @@
+model:
+  name: gdn
+  parameters:
+    epochs: 5
+    learning_rate: 0.001
+    hidden_dim: 64
+    batch_size: 64
+    top_k: 5
+    weight_decay: 0.0
+    device: auto
+    random_state: 42
+    upstream_commit: "3f809a5 (short hash shown by GitHub for current main; full SHA should be pinned before archival experiments)"
+upstream:
+  paper_url: "https://arxiv.org/abs/2106.06947"
+  repository_url: "https://github.com/d-ailin/GDN"
+  license: MIT
+  original_requirements: "Python>=3.6; CUDA 10.2; PyTorch 1.5.1; torch-geometric 1.5.0"
+  implementation_note: "Clean-room benchmark adapter; no upstream code vendored. Common validation-only thresholding and point-wise metrics are used."
