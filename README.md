@@ -83,3 +83,26 @@ Add datasets by implementing `DatasetLoader`, adding path-free YAML, registry me
 ## Current limitations and assumptions
 
 No external SOTA repositories or deep-learning models are integrated yet. Metrics are point-wise/sample-wise and do not apply point adjustment. Researchers must confirm the Ford label mapping, evaluation unit, official file indices, rejected-file label composition, downsampling, temporal representation, file-level validation split, Google Drive layout, and point-wise protocol.
+
+<!-- BENCHMARK-PAPERS:START -->
+## Selected papers
+
+Generated from [`registry/papers.csv`](registry/papers.csv).
+
+| Title | Year | Venue | Method family | Datasets | Official code | Repository URL | License | Integration status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+<!-- BENCHMARK-PAPERS:END -->
+
+<!-- BENCHMARK-RESULTS:START -->
+## Benchmark results
+
+Smoke-test rows, when present, are execution verification only and are not final paper results.
+
+Source CSV: [`results/benchmark_results.csv`](results/benchmark_results.csv) | XLSX export: [`results/benchmark_results.xlsx`](results/benchmark_results.xlsx)
+
+| Dataset | Model | Run mode | Seed | Precision | Recall | F1 | AUROC | AUPRC | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SWaT | GDN | full | 42 | 0.1806 | 0.9036 | 0.3010 | 0.8765 | 0.7626 | full_experiment |
+| SWaT | GDN | full | 43 | 0.2597 | 0.8276 | 0.3954 | 0.8721 | 0.7631 | full_experiment |
+| SWaT | GDN | full | 44 | 0.1824 | 0.9024 | 0.3035 | 0.8773 | 0.7622 | full_experiment |
+<!-- BENCHMARK-RESULTS:END -->
