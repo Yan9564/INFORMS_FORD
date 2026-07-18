@@ -1,0 +1,6 @@
+model:
+  name: isolation_forest
+  parameters:
+    n_estimators: 100
+    contamination: auto
+    random_state: 42

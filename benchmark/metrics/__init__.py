@@ -1,0 +1,1 @@
+"""Industrial anomaly benchmark package."""

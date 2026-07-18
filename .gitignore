@@ -1,0 +1,40 @@
+# data and large artifacts
+/data/
+/datasets/
+/third_party/
+/checkpoints/
+/models/
+/logs/
+/outputs/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# local env and credentials
+.env
+.env.*
+*.key
+*credentials*
+*token*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# keep result directories but ignore generated result files
+results/raw/**
+results/aggregated/**
+!results/raw/.gitkeep
+!results/aggregated/.gitkeep
+!results/README.md
