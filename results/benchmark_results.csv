@@ -1,0 +1,4 @@
+dataset,model,run_mode,lookback,seed,precision,recall,f1,auroc,auprc,threshold,evaluation_protocol,status
+swat,gdn,full,10,42,0.18061192342617816,0.9035787131466716,0.3010486972369376,0.876530303164162,0.7625803351692511,106.02559432983401,point-wise/window-final-label; validation-only percentile threshold; no point adjustment,full_experiment
+swat,gdn,full,10,43,0.2597323247017748,0.8276469497496755,0.39538488794401627,0.872130054066526,0.7630505102369562,143.67740859985358,point-wise/window-final-label; validation-only percentile threshold; no point adjustment,full_experiment
+swat,gdn,full,10,44,0.1824264802354132,0.902373447061005,0.30349709225276356,0.8772761229985856,0.7621567650181017,103.05106048583987,point-wise/window-final-label; validation-only percentile threshold; no point adjustment,full_experiment
