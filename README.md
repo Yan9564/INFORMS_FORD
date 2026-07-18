@@ -91,7 +91,6 @@ Generated from [`registry/papers.csv`](registry/papers.csv).
 
 | Title | Year | Venue | Method family | Datasets | Official code | Repository URL | License | Integration status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Graph Neural Network-Based Anomaly Detection in Multivariate Time Series | 2021 | AAAI | graph-based forecasting / learned dependency graph | SWaT; WADI | yes | https://github.com/d-ailin/GDN | MIT | implemented |
 <!-- BENCHMARK-PAPERS:END -->
 
 <!-- BENCHMARK-RESULTS:START -->
